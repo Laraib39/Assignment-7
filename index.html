@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class = "main">
+        <div>
+            <input class="output" id="output" type="text">
+        </div>
+        <div>
+            <button type="button" onclick= "clearResult()" class="btn btn-secondary"><b>C</b></button>
+            <button type="button" onclick= "getNumber('-')" class="btn btn-secondary"><b>+/-</b></button>
+
+        </div>
+        <div>
+            <button type="button" onclick= "getNumber('7')" class="btn btn-secondary nums"><b>7</b></button>
+            <button type="button" onclick= "getNumber('8')" class="btn btn-secondary nums"><b>8</b></button>
+            <button type="button" onclick= "getNumber('9')" class="btn btn-secondary nums"><b>9</b></button>
+            <button type="button" onclick= "getNumber('/')" class="btn btn-secondary nums"><b>/</b></button>
+        </div>
+        <div>
+            <button type="button" onclick= "getNumber('4')" class="btn btn-secondary nums"><b>4</b></button>
+            <button type="button" onclick= "getNumber('5')" class="btn btn-secondary nums"><b>5</b></button>
+            <button type="button" onclick= "getNumber('6')" class="btn btn-secondary nums"><b>6</b></button>
+            <button type="button" onclick= "getNumber('*')" class="btn btn-secondary nums"><b>x</b></button>
+        </div>
+        <div>
+            <button type="button" onclick= "getNumber('1')" class="btn btn-secondary nums"><b>1</b></button>
+            <button type="button" onclick= "getNumber('2')" class="btn btn-secondary nums"><b>2</b></button>
+            <button type="button" onclick= "getNumber('3')" class="btn btn-secondary nums"><b>3</b></button>
+            <button type="button" onclick= "getNumber('-')" class="btn btn-secondary nums"><b>-</b></button>
+        </div>
+        <div>
+            <button type="button" onclick= "getNumber('.')" class="btn btn-secondary nums"><b>.</b></button>
+            <button type="button" onclick= "getNumber('0')" class="btn btn-secondary nums"><b>0</b></button>
+            <button type="button" onclick="getResult()" class="btn btn-secondary nums"><b>=</b></button>
+            <button type="button" onclick= "getNumber('+')" class="btn btn-secondary nums"><b>+</b></button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
